@@ -111,3 +111,15 @@ export default function Home() {
     </main>
   );
 }
+
+// import React from 'react'
+
+// const page = () => {
+//   return (
+//     <div>
+//      <h6>Next Js</h6>
+//     </div>
+//   )
+// }
+
+// export default page
