@@ -27,6 +27,8 @@ const Sidebar = () => {
         <Menu.Item key="3" icon={<UploadOutlined />}>
           Upload
         </Menu.Item>
+        {/* <UserOutlined /> , <VideoCameraOutlined /> , <UploadOutlined /> | used for
+         Icons to be displayed at left of each menus */}
       </Menu>
     </Sider>
   );
