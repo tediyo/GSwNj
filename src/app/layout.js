@@ -9,21 +9,21 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // return (
-  //   <html lang="en">
-  //     <body className={inter.className}>{children}</body>
-  //   </html>
-  // );
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <header>
-          <nav>
-            <a href="/page1">Page 1</a> | <a href="/page2">Page 2</a>
-          </nav>
-        </header>
-        {children}
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
+  // return (
+  //   <html lang="en">
+  //     <body className={inter.className}>
+  //       <header>
+  //         <nav>
+  //           <a href="/page1">Page 1</a> | <a href="/page2">Page 2</a>
+  //         </nav>
+  //       </header>
+  //       {children}
+  //     </body>
+  //   </html>
+  // );
 }
