@@ -4,7 +4,7 @@
 import { Layout, Menu } from 'antd';
 import { useState } from 'react';
 
-const { Header } = Layout;
+const { Header } = Layout; // Head is the sub component of Layout(Main Container) for creating Header Section
 
 const TopBar = () => {
   const [selectedKeys, setSelectedKeys] = useState(['1']);
