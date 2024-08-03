@@ -1,3 +1,5 @@
+
+'use client'; // This makes the component a Client Component
 // components/Sidebar.js
 import { Layout, Menu } from 'antd';
 import {

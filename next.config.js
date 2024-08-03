@@ -1,7 +1,5 @@
-// next.config.mjs
-import { defineConfig } from 'next';
-
-export default defineConfig({
+// next.config.js
+module.exports = {
   reactStrictMode: true,
-  // Add other configurations if needed
-});
+  // Add other configurations here
+};
