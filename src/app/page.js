@@ -1,49 +1,8 @@
-// // pages/index.js
-import Link from 'next/link';
-
 export default function Home() {
   return (
     <div>
-    <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home Page!</p>
-      
-      <nav>
-        <ul>
-          <li>
-            <Link href="/page1">Go to Page 1</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    {/* ///////////////////////// */}
-    <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home Page!</p>
-      
-      <nav>
-        <ul>
-          <li>
-            <Link href="/page1">Go to Page 1</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    {/* //////////////////////////////////////////// */}
-    <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home Page!</p>
-      
-      <nav>
-        <ul>
-          <li>
-            <Link href="/page1">Go to Page 1</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
+      <h1>Welcome to My Next.js App</h1>
+      <p>Main content goes here.</p>
     </div>
   );
 }
