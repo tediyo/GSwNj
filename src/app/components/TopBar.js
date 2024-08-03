@@ -1,4 +1,6 @@
 // components/TopBar.js
+'use client'; // This makes the component a Client Component
+
 import { Layout, Menu } from 'antd';
 import { useState } from 'react';
 
