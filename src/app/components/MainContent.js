@@ -1,6 +1,6 @@
 // components/MainContent.js
 'use client'; // This makes the component a Client Component
-import { Layout, Breadcrumb } from 'antd';
+import { Layout, Breadcrumb, Card, Row, Col } from 'antd';
 
 const { Content } = Layout;
 
@@ -19,8 +19,18 @@ const MainContent = () => {
           background: '#fff',
         }}
       >
-        Main Content Area
-        {/* Two Vertical cards displayed here below */}
+        <Row gutter={[16, 16]}>
+          <Col span={12}>
+            <Card title="Card 1" bordered={true}>
+              Content for the first vertical card.
+            </Card>
+          </Col>
+          <Col span={12}>
+            <Card title="Card 2" bordered={true}>
+              Content for the second vertical card.
+            </Card>
+          </Col>
+        </Row>
       </Content>
     </Layout>
   );
