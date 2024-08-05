@@ -20,6 +20,7 @@ const MainContent = () => {
         }}
       >
         Main Content Area
+        {/* Two Vertical cards displayed here below */}
       </Content>
     </Layout>
   );
